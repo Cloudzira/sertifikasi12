@@ -1,6 +1,6 @@
 /* Service Worker - Sertifikasi 12
    Naikkan angka VERSION setiap kali Anda mengubah index.html agar pengguna mendapat versi terbaru. */
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = 'sertifikasi12-' + VERSION;
 
 const SHELL = [
