@@ -1042,7 +1042,7 @@
             <p>Masukkan kode akses untuk membuka laporan</p>
             
             <div class="pin-input-group">
-              <input type="password" id="pinInput" inputmode="numeric" placeholder="•••" maxlength="10" onkeydown="handlePinKeyPress(event)">
+              <input type="password" id="pinInput" inputmode="text" placeholder="••••" maxlength="10" onkeydown="handlePinKeyPress(event)">
               <button type="button" class="pin-toggle-btn" onclick="togglePinVisibility()">
                 <i class="fa-regular fa-eye" id="toggleIcon"></i>
               </button>
@@ -1417,7 +1417,7 @@
       const authErrorMsg = document.getElementById('authErrorMsg');
       const authCard = document.getElementById('authCard');
 
-      if (pinInput.value === "100") {
+      if (pinInput.value === "awan") {
         authErrorMsg.style.display = 'none';
         document.getElementById('authSection').style.display = 'none';
         document.getElementById('loginSection').style.display = 'flex';
